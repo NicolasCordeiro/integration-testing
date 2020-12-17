@@ -1,0 +1,989 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 213619800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário deseja salvar um novo processo",
+            "match": {
+              "location": "ProcessSteps.queOUsuárioDesejaSalvarUmNovoProcesso()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5621101,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o usuário informar no campo \"vara\" o valor \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 29
+                },
+                {
+                  "val": "3",
+                  "offset": 44
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 244800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuário informar no campo \"numero_processo\" o valor \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 29
+                },
+                {
+                  "val": "4",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 97701,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuário informar no campo \"natureza\" o valor \"Guarda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 29
+                },
+                {
+                  "val": "Guarda",
+                  "offset": 48
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 106900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuário informar no campo \"partes\" o valor \"Jose x Maria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 29
+                },
+                {
+                  "val": "Jose x Maria",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 163001,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário informar no campo \"urgente\" o valor \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 29
+                },
+                {
+                  "val": "N",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 122500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuário informar no campo \"arbitramento\" o valor \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 29
+                },
+                {
+                  "val": "S",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 119499,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuário informar no campo \"assistente_social\" o valor \"Gisele\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente_social",
+                  "offset": 29
+                },
+                {
+                  "val": "Gisele",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 142000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuário informar no campo \"data_entrada\" o valor \"20/10/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 29
+                },
+                {
+                  "val": "20/10/2020",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 106000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário informar no campo \"data_saida\" o valor \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_saida",
+                  "offset": 29
+                },
+                {
+                  "val": "",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 479700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuário informar no campo \"data_agendamento\" o valor \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_agendamento",
+                  "offset": 29
+                },
+                {
+                  "val": "",
+                  "offset": 56
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 593899,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o usuário informar no campo \"status\" o valor \"Aguardando\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 29
+                },
+                {
+                  "val": "Aguardando",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 145400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "o usuário informar no campo \"observacao\" o valor \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "observacao",
+                  "offset": 29
+                },
+                {
+                  "val": "",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 150199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Cadastro de Processo - POST",
+        "description": "",
+        "id": "crud-de-processos;cadastro-de-processo---post",
+        "after": [
+          {
+            "result": {
+              "duration": 56201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "output": [
+              "METHOD: [ POST (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [ {arbitramento\u003dS, assistente_social\u003dGisele, data_agendamento\u003d, data_entrada\u003d20/10/2020, data_saida\u003d, natureza\u003dGuarda, numero_processo\u003d4, observacao\u003d, partes\u003dJose x Maria, status\u003dAguardando, urgente\u003dN, vara\u003d3} ]",
+              "------------------------------------",
+              "METHOD: [ POST (Response) ]",
+              "Status Code: [ 201 ]",
+              "Response: [ {\"id\":2820,\"vara\":\"3\",\"numero_processo\":\"4\",\"natureza\":\"Guarda\",\"partes\":\"Jose x Maria\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele\",\"data_entrada\":\"2020-10-20\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"\",\"created_at\":\"2020-12-16T23:51:08.218Z\",\"updated_at\":\"2020-12-16T23:51:08.218Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/2820.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 7914024500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "o usuário clicar em salvar",
+            "match": {
+              "location": "ProcessSteps.oUsuárioClicarEmSalvar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3155200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "o usuário deveria ver a mensagem \"Processo cadastrado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo cadastrado com sucesso",
+                  "offset": 34
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioDeveriaVerAMensagem(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 48499,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário deseja salvar um novo processo",
+            "match": {
+              "location": "ProcessSteps.queOUsuárioDesejaSalvarUmNovoProcesso()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 189500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o usuário informar no campo \"vara\" o valor \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 29
+                },
+                {
+                  "val": "3",
+                  "offset": 44
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 74301,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuário informar no campo \"numero_processo\" o valor \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 29
+                },
+                {
+                  "val": "4",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 91100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuário informar no campo \"natureza\" o valor \"Guarda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 29
+                },
+                {
+                  "val": "Guarda",
+                  "offset": 48
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 596900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuário informar no campo \"partes\" o valor \"Jose x Maria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 29
+                },
+                {
+                  "val": "Jose x Maria",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 139100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário informar no campo \"urgente\" o valor \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 29
+                },
+                {
+                  "val": "N",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 97700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuário informar no campo \"arbitramento\" o valor \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 29
+                },
+                {
+                  "val": "S",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2295800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuário informar no campo \"assistente_social\" o valor \"Gisele\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente_social",
+                  "offset": 29
+                },
+                {
+                  "val": "Gisele",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 88701,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuário informar no campo \"data_entrada\" o valor \"20/10/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 29
+                },
+                {
+                  "val": "20/10/2020",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 121900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário informar no campo \"data_saida\" o valor \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_saida",
+                  "offset": 29
+                },
+                {
+                  "val": "",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 79199,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuário informar no campo \"data_agendamento\" o valor \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_agendamento",
+                  "offset": 29
+                },
+                {
+                  "val": "",
+                  "offset": 56
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 751101,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o usuário informar no campo \"status\" o valor \"Aguardando\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 29
+                },
+                {
+                  "val": "Aguardando",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 80899,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "o usuário informar no campo \"observacao\" o valor \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "observacao",
+                  "offset": 29
+                },
+                {
+                  "val": "",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioInformarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Consulta de Processo - GET",
+        "description": "",
+        "id": "crud-de-processos;consulta-de-processo---get",
+        "after": [
+          {
+            "result": {
+              "duration": 18599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "output": [
+              "METHOD: [ POST (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [ {arbitramento\u003dS, assistente_social\u003dGisele, data_agendamento\u003d, data_entrada\u003d20/10/2020, data_saida\u003d, natureza\u003dGuarda, numero_processo\u003d4, observacao\u003d, partes\u003dJose x Maria, status\u003dAguardando, urgente\u003dN, vara\u003d3} ]",
+              "------------------------------------",
+              "METHOD: [ POST (Response) ]",
+              "Status Code: [ 201 ]",
+              "Response: [ {\"id\":2821,\"vara\":\"3\",\"numero_processo\":\"4\",\"natureza\":\"Guarda\",\"partes\":\"Jose x Maria\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele\",\"data_entrada\":\"2020-10-20\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"\",\"created_at\":\"2020-12-16T23:51:09.583Z\",\"updated_at\":\"2020-12-16T23:51:09.583Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/2821.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 403490700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "o usuário clicar no botão salvar",
+            "match": {
+              "location": "ProcessSteps.oUsuárioClicarNoBotãoSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "output": [
+              "METHOD: [ GET (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/2821 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [  ]",
+              "------------------------------------",
+              "METHOD: [ GET (Response) ]",
+              "Status Code: [ 200 ]",
+              "Response: [ {\"id\":2821,\"vara\":\"3\",\"numero_processo\":\"4\",\"natureza\":\"Guarda\",\"partes\":\"Jose x Maria\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele\",\"data_entrada\":\"2020-10-20\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"\",\"created_at\":\"2020-12-16T23:51:09.583Z\",\"updated_at\":\"2020-12-16T23:51:09.583Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/2821.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 380012800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "o usuário clicar no botão consultar do cadastro",
+            "match": {
+              "location": "ProcessSteps.oUsuarioClicarNoBotãoConsultarDoCadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 145200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "o usuário deveria ver a mensagem \"Processo consultado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo consultado com sucesso",
+                  "offset": 34
+                }
+              ],
+              "location": "ProcessSteps.oUsuárioDeveriaVerAMensagem(String)"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 12868601,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "o usuário deverá ver no campo \"vara\" o valor \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 31
+                },
+                {
+                  "val": "3",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessSteps.oUsuarioDeveráVerNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 14315500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "o usuário deverá ver no campo \"numero_processo\" o valor \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 31
+                },
+                {
+                  "val": "4",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessSteps.oUsuarioDeveráVerNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 14882200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "o usuário deverá ver no campo \"natureza\" o valor \"Guarda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 31
+                },
+                {
+                  "val": "Guarda",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessSteps.oUsuarioDeveráVerNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 12536600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "o usuário deverá ver no campo \"partes\" o valor \"Jose x Maria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 31
+                },
+                {
+                  "val": "Jose x Maria",
+                  "offset": 48
+                }
+              ],
+              "location": "ProcessSteps.oUsuarioDeveráVerNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 15369500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "o usuário deverá ver no campo \"urgente\" o valor \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 31
+                },
+                {
+                  "val": "N",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessSteps.oUsuarioDeveráVerNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 15584000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "o usuário deverá ver no campo \"arbitramento\" o valor \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 31
+                },
+                {
+                  "val": "S",
+                  "offset": 54
+                }
+              ],
+              "location": "ProcessSteps.oUsuarioDeveráVerNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 14241400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "o usuário deverá ver no campo \"assistente_social\" o valor \"Gisele\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente_social",
+                  "offset": 31
+                },
+                {
+                  "val": "Gisele",
+                  "offset": 59
+                }
+              ],
+              "location": "ProcessSteps.oUsuarioDeveráVerNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 15768200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "o usuário deverá ver no campo \"data_entrada\" o valor \"2020-10-20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 31
+                },
+                {
+                  "val": "2020-10-20",
+                  "offset": 54
+                }
+              ],
+              "location": "ProcessSteps.oUsuarioDeveráVerNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 18348600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "o usuário deverá ver no campo \"status\" o valor \"Aguardando\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 31
+                },
+                {
+                  "val": "Aguardando",
+                  "offset": 48
+                }
+              ],
+              "location": "ProcessSteps.oUsuarioDeveráVerNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 24150201,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "o usuário deverá ver no campo \"observacao\" o valor \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "observacao",
+                  "offset": 31
+                },
+                {
+                  "val": "",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessSteps.oUsuarioDeveráVerNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "CRUD de Processos",
+    "description": "",
+    "id": "crud-de-processos",
+    "keyword": "Funcionalidade",
+    "uri": "process/crudProcess.feature"
+  }
+]
